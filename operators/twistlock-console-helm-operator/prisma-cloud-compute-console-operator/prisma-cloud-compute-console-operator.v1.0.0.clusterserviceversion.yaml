@@ -67,34 +67,23 @@ spec:
           endpoints, GUI, and makes install of Defenders on each node easy
           through a daemonset.
         resources:
-        - kind: ReplicationController
-          name: ''
-          version: v1
-        - kind: Service
-          name: ''
-          version: v1
-        - kind: PersistentVolumeClaim
-          name: ''
-          version: v1
-        - kind: ConfigMap
-          name: ''
-          version: v1
-        - kind: Secret
-          name: ''
-          version: v1
-        - Kind: ServiceAccount
-          name: ''
-          version: v1
-        - kind: Role
-          version: v1
-        - kind: RoleBinding
-          version: v1
-        - kind: Deployment
-          version: v1
-        - kind: ReplicaSet
-          version: v1
-        - kind: Pods
-          version: v1
+          - kind: ReplicationController
+            name: ''
+            version: v1
+          - kind: Service
+            name: ''
+            version: v1
+          - kind: PersistentVolumeClaim
+            name: ''
+            version: v1
+          - kind: ConfigMap
+            name: ''
+            version: v1
+          - kind: Secret
+            name: ''
+            version: v1
+          - Kind: ServiceAccount
+            name: ''
   displayName: Prisma Cloud Compute (Twistlock) Console Operator
   icon:
     - base64data: >-
